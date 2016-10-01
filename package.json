@@ -8,7 +8,7 @@
     "build-dev": "webpack",
     "dev": "webpack-dev-server --port=3000",
     "publish": "npm run build && npm run push",
-    "push": "git add . && git commit -m \"Game update\" && git push origin master",
+    "push": "git add . && git commit -m \"Game update\" && git push origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
