@@ -9,7 +9,7 @@ export default class Loading extends State {
     text: Text;
 
     preload(): void {
-        this.game.load.image(Assets.LOGO, '/assets/logo.png');
+        this.game.load.image(Assets.LOGO, 'assets/logo.png');
     }
 
 
