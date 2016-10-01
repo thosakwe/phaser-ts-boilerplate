@@ -1,3 +1,3 @@
-import Trugen from './lib/game';
+import MyGame from './lib/game';
 
-const trugen = new Trugen('game');
+new MyGame();

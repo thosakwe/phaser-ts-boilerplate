@@ -4,7 +4,6 @@ var webpack = require('webpack');
 
 common.devtool = 'eval';
 common.entry = [
-    'pixi.js/src',
     'phaser-shim',
     path.join(__dirname, './src/main.ts')
 ];
