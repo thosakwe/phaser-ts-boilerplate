@@ -1,7 +1,8 @@
 {
-  "name": "trugen",
+  "name": "phaser-ts-boilerplate",
   "version": "1.0.0-dev",
-  "description": "Believe it!",
+  "description": "Instant Phaser games with TypeScript, WebPack and ES6.",
+  "private": "true",
   "main": "src/main.ts",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
@@ -13,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thosakwe/trugen.git"
+    "url": "git+https://github.com/thosakwe/phaser-ts-boilerplate.git"
   },
   "author": "Tobe O <thosakwe@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thosakwe/trugen/issues"
+    "url": "https://github.com/thosakwe/phaser-ts-boilerplate/issues"
   },
-  "homepage": "https://github.com/thosakwe/trugen#readme",
+  "homepage": "https://github.com/thosakwe/phaser-ts-boilerplate#readme",
   "devDependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
