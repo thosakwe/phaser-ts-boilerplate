@@ -1,4 +1,4 @@
-# phaser-ts-boilerplate
+# phaser-ts-boilerplate (minimal)
 Instant Phaser games with TypeScript, WebPack and ES6.
 This boilerplate has no `master` branch, but instead has `gh-pages` branch.
 
