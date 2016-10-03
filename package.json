@@ -2,7 +2,7 @@
   "name": "phaser-ts-boilerplate",
   "version": "1.0.0-dev",
   "description": "Instant Phaser games with TypeScript, WebPack and ES6.",
-  "private": true,
+  "private": "true",
   "main": "src/main.ts",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
