@@ -1,5 +1,5 @@
 import {AUTO, Game} from 'phaser-shim';
-import {LoadingState, States, TitleState} from './states';
+import {ControlsState, GameOverState, GamePlayState, LoadingState, States, TitleState} from './states';
 
 export default class MyGame {
     game: Game;
@@ -11,6 +11,9 @@ export default class MyGame {
             AUTO,
             'game');
 
+        this.game.state.add(States.CONTROLS, ControlsState);
+        this.game.state.add(States.GAME_OVER, GameOverState);
+        this.game.state.add(States.GAMEPLAY, GamePlayState);
         this.game.state.add(States.LOADING, LoadingState);
         this.game.state.add(States.TITLE, TitleState);
 
